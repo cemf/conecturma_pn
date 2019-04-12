@@ -16,11 +16,24 @@
     </div>
     <div id="accordion">
       <!-- inicio da tabela -->
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Escola</th>
+      <!--
+      <th scope="col"></th>
+      <th scope="col">Handle</th>
+      -->
+    </tr>
+  </thead>
+  </table>
 
       <div class="row">
         <div class="col-md-12 item-tabela topo-tab">
           Escola
         </div>
+        
 
 
       </div>
