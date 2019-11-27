@@ -184,7 +184,7 @@ class DbAluno(Model):
 
     def pesquisa_aluno_objeto(self, nome_aluno):
 
-    # pesquisa aluno esta retornando o objeto em sua totalidade , NAO DELETAR ESSE METODO  , pois é usado em Dbcemiterio
+    
 
         aluno_pes = []
         for pesquisa in DbAluno.query(DbAluno.nome == nome_aluno):
@@ -371,5 +371,5 @@ class DbAluno(Model):
 
         return aluno
 
-    def apagartudo(self):
-        db.flushall()
+    #def apagartudo(self):
+     #   db.flushall()
